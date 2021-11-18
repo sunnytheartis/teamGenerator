@@ -86,7 +86,7 @@ inquirer.prompt([
     
 
 ]).then ((response)=>{
-    fs.writeFile("README.md", `
+    fs.writeFile("team.html", `
    
         <div class="card employee-card">
         <div class="card-header">
